@@ -1,6 +1,6 @@
 # AssetsParser
 
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
+![Platform](https://img.shields.io/badge/platform-macOS-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
 ![SPM](https://img.shields.io/badge/SPM-Supported-green)
 [![CI](https://github.com/coollazy/AssetsParser/actions/workflows/ci.yml/badge.svg)](https://github.com/coollazy/AssetsParser/actions/workflows/ci.yml)
@@ -13,13 +13,13 @@
 
 - Package.swift 的 dependencies 增加
 
-```
+```swift
 .package(name: "AssetsParser", url: "https://github.com/coollazy/AssetsParser.git", from: "1.0.0"),
 ```
 
 - target 的 dependencies 增加
 
-```
+```swift
 .product(name: "AssetsParser", package: "AssetsParser"),
 ```
 
