@@ -35,7 +35,7 @@ extension AssetsParser {
             "--platform", "iphoneos",
             "--minimum-deployment-target", "12.0",
             "--app-icon", "AppIcon",
-            "--output-partial-info-plist", "human-readable-text",
+            "--output-partial-info-plist", "/dev/null",
             xcassetsDirURL.path
         ])
         
