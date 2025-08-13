@@ -13,13 +13,13 @@
 
 - Package.swift 的 dependencies 增加
 
-```
+```swift
 .package(name: "AssetsParser", url: "https://github.com/coollazy/AssetsParser.git", from: "1.0.0"),
 ```
 
 - target 的 dependencies 增加
 
-```
+```swift
 .product(name: "AssetsParser", package: "AssetsParser"),
 ```
 

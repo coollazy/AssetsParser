@@ -13,13 +13,13 @@ Parse and rebuild `Assets.car` files.
 
 - Add to Package.swift dependencies:
 
-```
+```swift
 .package(name: "AssetsParser", url: "https://github.com/coollazy/AssetsParser.git", from: "1.0.0"),
 ```
 
 - Add to target dependencies:
 
-```
+```swift
 .product(name: "AssetsParser", package: "AssetsParser"),
 ```
 
